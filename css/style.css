@@ -1,25 +1,21 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 1;
-    padding-bottom: 5rem;
+    font-size: 24px;
+    line-height: 4;
   }
   
   textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
+    background: #30D5C8;
+    color: #E6E6FA;
+    border-left: 2px bold #E6E6FA;
+    padding: 24px;
   }
   
   .jumbotron {
     text-align: center;
-    background-color: transparent;
-    color: black;
+    background-color: #30D5C8;
+    color: #E6E6FA;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 2px bold #E6E6FA;
   }
   
   .description {
@@ -28,19 +24,19 @@ body {
   
   .time-block {
     text-align: center;
-    border-radius: 15px;
+    border-radius: 24px;
   }
   
   .row {
     white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;
+    height: 100px;
+    border-top: 2px bold #E6E6FA;
   }
   
   .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
+    background-color: #E6E6FA;
+    color: #E6E6FA;
+    border-top: 1px dashed #E6E6FA;
   }
   
   .past {
